@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+}
+
+input {
+    border-bottom: 2px solid black !important;
+    padding: 4px;
+    border: none;
+    width: 5%;
+}
+input::focused {
+    outline: none;
+
+}
+
+button {
+    margin: 20px 0;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 8px;
+}
+
+.board {
+    display: flex;
+    flex: row;
+    gap: 20px;
+    background-color: navy;
+    color: #fff;
+    width: 30%;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.home, .guest {
+    display: flex;
+    flex-direction: column;
+}
+
+.score {
+    background-color: black;
+    padding: 30px;
+    font-size: 60px;
+}
+
+.red {
+    color: red
+}
+.green {
+    color: green;
+}
